@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example SDK - Browser Test</title>
+    <script src="http://localhost:3000/dist/sdk.min.js"></script>
+</head>
+<body>
+    <h1>Browser Test</h1>
+    <div id="message">This test will get replaced after 1 sec.</div>
+    <script>
+        var example = Examplesdk.HelloWorld("Test Browser page");
+        setTimeout(function(){
+            document.querySelector("#message").innerHTML = example;
+        }, 1000);
+    </script>
+</body>
+</html>
