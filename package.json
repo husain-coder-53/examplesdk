@@ -4,11 +4,7 @@
   "description": "Trying to learn integration methods",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "start": "webpack serve",
-    "build": "webpack --watch",
-    "prepare": "npm run build"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "_Anonymous_",
   "license": "MIT",
